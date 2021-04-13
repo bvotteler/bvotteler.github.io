@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Website of Brendon Votteler</title><link>https://bespokesy.dev/</link><description>Recent content on Website of Brendon Votteler</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 01 Apr 2021 11:32:49 +1100</lastBuildDate><atom:link href="https://bespokesy.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>My first few weeks in</title><link>https://bespokesy.dev/post/first_weeks/</link><pubDate>Thu, 01 Apr 2021 11:32:49 +1100</pubDate><guid>https://bespokesy.dev/post/first_weeks/</guid><description>&lt;p>I&amp;rsquo;ve felt pretty busy the past few weeks. Progress felt great at times; yet at the same time I spent a fair chunk of time waiting for administrative work to come through. But more on that later.&lt;br>
 Let me start with a recap to tie it all together with &lt;a href="https://bespokesy.dev/post/starting-a-product-portfolio">last week&amp;rsquo;s post&lt;/a>. I mentioned the one thing I wanted to get done: &lt;em>Find an idea&lt;/em>.&lt;/p>
-&lt;p>Spoiler alert: I did find an idea.&lt;br>
+&lt;p>Spoiler alert: I did find an idea. &lt;!-- raw HTML omitted -->&lt;br>
 Granted it&amp;rsquo;s a small, probably low-value idea. However, it is small enough to fail fast and learn some valuable things.&lt;/p>
 &lt;h2 id="heres-how-i-found-the-idea">Here&amp;rsquo;s how I found the idea&lt;/h2>
 &lt;p>I actually found several ideas but discarded most. Many were too big to tackle quickly. Others may fit from a size perspective, but I had to pick one. Or rather, I think it picked me.&lt;/p>
@@ -117,7 +117,7 @@ I won't use your email address for anything other than automating RSS feeds to s
 &lt;script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'>&lt;/script>&lt;script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='SIGNUP';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);&lt;/script>
 &lt;/div></description></item><item><title>Starting a Product Portfolio</title><link>https://bespokesy.dev/post/starting-a-product-portfolio/</link><pubDate>Mon, 15 Mar 2021 13:41:00 +1100</pubDate><guid>https://bespokesy.dev/post/starting-a-product-portfolio/</guid><description>&lt;p>I may have (finally) settled on a strategy on how to start building a portfolio of products.&lt;/p>
 &lt;p>Over the past week, I&amp;rsquo;ve spent a lot of time reading up on articles across indie hacker (IH) and related spaces, plus various posts linked from those sites. And the ever-deepening tree of content that branches off from those.&lt;br>
-Quite frankly, it&amp;rsquo;s mind boggling how much material is out there to distract myself from, you know, &lt;em>actually building things&lt;/em>.&lt;/p>
+Quite frankly, it&amp;rsquo;s mind boggling how much material is out there to distract myself from, you know, &lt;em>actually building things&lt;/em>. &lt;!-- raw HTML omitted -->&lt;/p>
 &lt;h2 id="my-handicap">My handicap&lt;/h2>
 &lt;p>It doesn&amp;rsquo;t help that I&amp;rsquo;m prone to analysis paralysis. And while I am aware of that, it still is a battle for me to not fall right into that trap (as I keep telling myself while I click on the next link to find out just a little bit more).&lt;br>
 To make things harder, I also have a great knack for foreseeing potential problems a few miles down the road.&lt;/p>
@@ -186,7 +186,7 @@ Regarding the latter, I&amp;rsquo;m in contact with former employers to find out
 &lt;p>Since a lot of my past work was for my employers' clients, this can be tricky. We need to take into account their respective agreements, too.&lt;br>
 I can&amp;rsquo;t make promises about what I will be able to share, but when I get permission, I&amp;rsquo;ll only share the ones that have enough &amp;ldquo;meat&amp;rdquo; after review to be valuable for my readers.&lt;/p></description></item><item><title>Welcome</title><link>https://bespokesy.dev/post/welcome/</link><pubDate>Wed, 10 Mar 2021 11:18:47 +1100</pubDate><guid>https://bespokesy.dev/post/welcome/</guid><description>&lt;p>Welcome to my new website. And blog, I suppose.&lt;/p>
 &lt;p>I&amp;rsquo;m working hard behind the scenes to put together more details about some of the system integrations I have completed previously.&lt;br>
-This might take a bit of time to complete.&lt;/p>
+This might take a bit of time to complete. &lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>Meanwhile, I want to briefly explain how to best work with me. You know, just in case you stumble across this first post.&lt;/p>
 &lt;h1 id="modus-operandi">Modus operandi&lt;/h1>
 &lt;p>I tend to put generated value front and center of any system that I design and/or build.&lt;br>
