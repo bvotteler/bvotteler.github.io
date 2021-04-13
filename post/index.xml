@@ -1,307 +1,152 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Website of Brendon Votteler</title>
-    <link>https://bespokesy.dev/post/</link>
-    <description>Recent content in Posts on Website of Brendon Votteler</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 01 Apr 2021 11:32:49 +1100</lastBuildDate><atom:link href="https://bespokesy.dev/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My first few weeks in</title>
-      <link>https://bespokesy.dev/post/first_weeks/</link>
-      <pubDate>Thu, 01 Apr 2021 11:32:49 +1100</pubDate>
-      
-      <guid>https://bespokesy.dev/post/first_weeks/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve felt pretty busy the past few weeks. Progress felt great at times; yet at the same time I spent a fair chunk of time waiting for administrative work to come through. But more on that later.&lt;br&gt;
-Let me start with a recap to tie it all together with &lt;a href=&#34;https://bespokesy.dev/post/starting-a-product-portfolio&#34;&gt;last week&amp;rsquo;s post&lt;/a&gt;. I mentioned the one thing I wanted to get done: &lt;em&gt;Find an idea&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Spoiler alert: I did find an idea. &lt;!-- raw HTML omitted --&gt;&lt;br&gt;
-Granted it&amp;rsquo;s a small, probably low-value idea. However, it is small enough to fail fast and learn some valuable things.&lt;/p&gt;
-&lt;h2 id=&#34;heres-how-i-found-the-idea&#34;&gt;Here&amp;rsquo;s how I found the idea&lt;/h2&gt;
-&lt;p&gt;I actually found several ideas but discarded most. Many were too big to tackle quickly. Others may fit from a size perspective, but I had to pick one. Or rather, I think it picked me.&lt;/p&gt;
-&lt;p&gt;Just to reiterate. At this point in time, I&amp;rsquo;m not concerned about viability from a product-market fit perspective.&lt;br&gt;
-Sure, I&amp;rsquo;ll have to get that viability part addressed in future projects. For right now, though, my first wins will be just having something out there. And being able to accept payment for it.&lt;/p&gt;
-&lt;p&gt;Building a small product should give me some important things to learn. And since I am not expecting to generate any revenue, I want to get it out quickly. No point in trying to launch a 5-month learning experience that is unlikely to be successful if I can get the lessons sooner than that.&lt;/p&gt;
-&lt;p&gt;Recently, I got in touch with the CEO of a company I used to work for. I needed to find out if I&amp;rsquo;m allowed to write about a few past projects I built under their banner.&lt;br&gt;
-After my initial request, he sent back a reply that we&amp;rsquo;d better have a quick chat plus a &lt;a href=&#34;https://calendly.com&#34;&gt;Calendly&lt;/a&gt; link to find a time for that call. I booked a time, we had a chat.&lt;br&gt;
-(Turns out writing about those projects is&amp;hellip; complicated. But that doesn&amp;rsquo;t matter in the context of this post.)&lt;/p&gt;
-&lt;p&gt;A few days later, I started thinking about simple projects to cut my teeth with. I kept circling back to plugins or addons for established platforms for the likes of Wordpress, Shopify, Etsy and so on.&lt;/p&gt;
-&lt;p&gt;I personally use &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; for this website. Naturally, I started looking for addons for Hugo and noticed that there are very few around. Tons of themes, sure, but not many third party integrations.&lt;br&gt;
-I suspect this is in part because Hugo doesn&amp;rsquo;t have a mature app marketplace (at least that I could find). On the flip side, Hugo itself does seem to grow in popularity.&lt;br&gt;
-No, I won&amp;rsquo;t build a Hugo marketplace as my first product, either. Way too big. I need to make smaller mistakes before upgrading to the next size of Mistakes with a capital M.&lt;/p&gt;
-&lt;p&gt;So I examined popular Wordpress plugins to find a few that may make sense for Hugo. I made a shortlist and decided to narrow down the choice the next day.&lt;/p&gt;
-&lt;p&gt;The next morning, the Calendly link from a few days earlier popped back into my mind. It seemed to check a few boxes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;It shouldn&amp;rsquo;t take me long to build something useful quickly&lt;/li&gt;
-&lt;li&gt;No one&amp;rsquo;s built it (that I could find anyway)&lt;/li&gt;
-&lt;li&gt;People are using Hugo, and it seems to be fairly popular&lt;/li&gt;
-&lt;li&gt;I believe there is a cross section of people with Hugo sites who may already use Calendly to schedule their calls.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I decided that&amp;rsquo;s good enough as a starter product. Sure, I didn&amp;rsquo;t find it on my initial run through Wordpress plugins, but that list of ideas to explore can sit in my notes for future inspection.&lt;/p&gt;
-&lt;h2 id=&#34;calendly-shortcode-for-hugo&#34;&gt;Calendly shortcode for Hugo&lt;/h2&gt;
-&lt;p&gt;Adding Calendly to your website is very easy. You get a &lt;a href=&#34;https://help.calendly.com/hc/en-us/articles/223147027-Embed-options-overview&#34;&gt;html/js snippet to embed on your page&lt;/a&gt; and you&amp;rsquo;re set!&lt;/p&gt;
-&lt;p&gt;But hang on&amp;hellip; what&amp;rsquo;s the point of making it a shortcode then?&lt;/p&gt;
-&lt;p&gt;To be blunt: for simple use cases it really doesn&amp;rsquo;t make any sense at all. Copy, paste, done. No need to muck around with &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;Hugo shortcodes&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;But there are scenarios where it &lt;strong&gt;could&lt;/strong&gt; make sense to use shortcodes instead&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;If you have multiple Calendly links spread over several pages&lt;/p&gt;
-&lt;p&gt;To update the format or style for all of them you&amp;rsquo;d need to edit all places. And better check you didn&amp;rsquo;t forget one instance.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you have a page with, say, individual profiles with Calendly links&lt;/p&gt;
-&lt;p&gt;Similar to above. You&amp;rsquo;d need to update one page in several places.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You want to mix-and-match different embedded styles over various pages&lt;/p&gt;
-&lt;p&gt;With inline, popup text link, and popup widget styles, you need to keep track of slightly different variations. And again, if you want to adjust styles down the line, you&amp;rsquo;d need to got through each one again.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;this-where-a-shortcode-can-provide-value---if-done-right&#34;&gt;This where a shortcode can provide value - if done right&lt;/h3&gt;
-&lt;p&gt;Given the above, I think there are situations where shortcodes can make your life easier.&lt;/p&gt;
-&lt;p&gt;The trick then is making the shortcode easy to use while still useful. By picking default values in a smart way.&lt;br&gt;
-My basic idea was getting the style and/or embed type from the global scope (in &lt;code&gt;config.toml&lt;/code&gt; or a data file), from &lt;a href=&#34;https://gohugo.io/content-management/front-matter/&#34;&gt;front-matter&lt;/a&gt; as a page-specific default, or from parameters to the shortcode snippet directly. Whichever is closest to the shortcode itself overrides earlier ones.&lt;/p&gt;
-&lt;p&gt;You can set the overarching style in your config file, change the embed type in front-matter so it is consistent for that particular page and, finally, pick specific Calendly event types for the individual places where the shortcode is added.&lt;br&gt;
-And when you need to change the overarching styles or embed type, you only need to update it in one spot. Change it for one page only? Update it in its front-matter. Easy.&lt;/p&gt;
-&lt;h3 id=&#34;how-far-did-i-get&#34;&gt;How far did I get?&lt;/h3&gt;
-&lt;p&gt;So far, I&amp;rsquo;ve managed to slap together a quick, very basic prototype. Only showing a popup text link (ie. only one embed type). You can set a parameter for the calendly user/event name. And you can change the link text if you don&amp;rsquo;t like the default. Nothing special. It looks like this:
-&lt;img src=&#34;https://bespokesy.dev/images/hugo-calendly-simple.gif&#34; alt=&#34;demo gif of hugo-calendly-shortcode&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The majority of the time spent working on it was finding out how to make the shortcode available so it won&amp;rsquo;t interfere with other themes or modifications. I found the theme structure works well for that use case.&lt;/p&gt;
-&lt;h2 id=&#34;then-there-was-all-that-admin-stuff&#34;&gt;Then there was all that admin stuff&lt;/h2&gt;
-&lt;p&gt;Apart from slapping together a quick prototype for the Calendly shortcode, I had some administrative work to push along.&lt;br&gt;
-Getting my company&amp;rsquo;s bank account set up, registering my domain, setting up email for my business, etc.&lt;/p&gt;
-&lt;p&gt;I suspect it took so long because I don&amp;rsquo;t do these often enough to simply rattle through it on auto pilot.&lt;/p&gt;
-&lt;h2 id=&#34;learning-interesting-articlesvideos&#34;&gt;Learning: Interesting articles/videos&lt;/h2&gt;
-&lt;p&gt;I also spent a few hours just learning a more about running a small solo business. Thankfully, I don&amp;rsquo;t feel like I spent too much time on &amp;ldquo;getting a bit better of an idea what the heck I&amp;rsquo;m actually supposed to do here.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;The two most valuable pieces recently are listed below. Particularly as a fresh starter to this solopreneur thing.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://jakobgreenfeld.com/free&#34;&gt;What’s the point of free if you have nothing to sell&lt;/a&gt; by Jakob Greenfeld&lt;/p&gt;
-&lt;p&gt;Made me question if I should offer the simple Calendly shortcode as open source to begin with. While I haven&amp;rsquo;t decided yet, this post raises some interesting points against going down that route to begin with.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://training.kalzumeus.com/newsletters/archive/do-not-end-the-week-with-nothing&#34;&gt;Don&amp;rsquo;t End The Week With Nothing&lt;/a&gt; by Patrick McKenzie (patio11)&lt;/p&gt;
-&lt;p&gt;I doubt patio11 needs an introduction. This post helped me pay attention to getting something tangible done each week.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;next-steps&#34;&gt;Next steps&lt;/h2&gt;
-&lt;p&gt;During the next few weeks, I want to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Get the finalized version of Hugo Calendly shortcodes that I can sell&lt;/p&gt;
-&lt;p&gt;The challenge is to not go overboard with options/features. Simple, yet useful is the goal. No more than that.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Find a way to distribute it&lt;/p&gt;
-&lt;p&gt;There are several avenues to explore. So far, &lt;a href=&#34;https://gumroad.com/&#34;&gt;Gumroad&lt;/a&gt; or &lt;a href=&#34;https://xscode.com/&#34;&gt;xs:code&lt;/a&gt; look promising. I want to explore more options. The choice also depends on the pricing model I choose.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Decide how to price it&lt;/p&gt;
-&lt;p&gt;One-and-done price? Recurring? Different tiers? There are several options and I need to pick a format that makes sense for such a small project. The final model will also flow into which distribution channel I want to use.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Explore how to market it&lt;/p&gt;
-&lt;p&gt;I need to take a closer look at who my audience is and where it&amp;rsquo;s hanging out. While I don&amp;rsquo;t expect huge sales, I hope the exercize helps with future projects.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-    
-
-
-
-&lt;div style=&#34;background-color: var(--secondary-bg-color); padding: 1em; margin-top: 0; padding-top: 0.1em;&#34;&gt;
-    &lt;div&gt;
-        &lt;h3&gt;Subscribe for future updates&lt;/h3&gt;
-    &lt;p&gt;
-        If you want to receive email reminders about new posts, subscribe below.&lt;br /&gt;
-        I won&#39;t use your email address for anything other than automating RSS feeds to send you an email when I post something new.
-    &lt;/p&gt;
-    &lt;/div&gt;
-    
-    &lt;div id=&#34;mc_embed_signup&#34;&gt;
-    &lt;form action=&#34;https://dev.us1.list-manage.com/subscribe/post?u=c31eb5ccf9a43ad78bce0af6d&amp;amp;id=5ca1f66a41&amp;SIGNUP=bespokesy%20blog&#34; method=&#34;post&#34; id=&#34;mc-embedded-subscribe-form&#34; name=&#34;mc-embedded-subscribe-form&#34; class=&#34;validate&#34; target=&#34;_blank&#34; novalidate&gt;
-        &lt;div id=&#34;mc_embed_signup_scroll&#34;&gt;
-        
-    &lt;div class=&#34;mc-field-group&#34;&gt;
-        &lt;label for=&#34;mce-EMAIL&#34;&gt;Email Address&lt;/label&gt;
-        &lt;input type=&#34;email&#34; value=&#34;&#34; name=&#34;EMAIL&#34; class=&#34;required email&#34; id=&#34;mce-EMAIL&#34; style=&#34;width:40%;&#34;&gt;
-        &lt;input type=&#34;submit&#34; value=&#34;Subscribe&#34; name=&#34;subscribe&#34; id=&#34;mc-embedded-subscribe&#34;&gt;
-    &lt;/div&gt;
-        &lt;div id=&#34;mce-responses&#34; class=&#34;clear&#34;&gt;
-            &lt;div class=&#34;response&#34; id=&#34;mce-error-response&#34; style=&#34;display:none&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;response&#34; id=&#34;mce-success-response&#34; style=&#34;display:none&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;    
-        &lt;div style=&#34;position: absolute; left: -5000px;&#34; aria-hidden=&#34;true&#34;&gt;&lt;input type=&#34;text&#34; name=&#34;b_c31eb5ccf9a43ad78bce0af6d_5ca1f66a41&#34; tabindex=&#34;-1&#34; value=&#34;&#34;&gt;&lt;/div&gt;
-        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/form&gt;
-    &lt;/div&gt;
-    &lt;script type=&#39;text/javascript&#39; src=&#39;//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js&#39;&gt;&lt;/script&gt;&lt;script type=&#39;text/javascript&#39;&gt;(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=&#39;EMAIL&#39;;ftypes[0]=&#39;email&#39;;fnames[1]=&#39;SIGNUP&#39;;ftypes[1]=&#39;text&#39;;}(jQuery));var $mcj = jQuery.noConflict(true);&lt;/script&gt;
-    
-&lt;/div&gt;
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Starting a Product Portfolio</title>
-      <link>https://bespokesy.dev/post/starting-a-product-portfolio/</link>
-      <pubDate>Mon, 15 Mar 2021 13:41:00 +1100</pubDate>
-      
-      <guid>https://bespokesy.dev/post/starting-a-product-portfolio/</guid>
-      <description>&lt;p&gt;I may have (finally) settled on a strategy on how to start building a portfolio of products.&lt;/p&gt;
-&lt;p&gt;Over the past week, I&amp;rsquo;ve spent a lot of time reading up on articles across indie hacker (IH) and related spaces, plus various posts linked from those sites. And the ever-deepening tree of content that branches off from those.&lt;br&gt;
-Quite frankly, it&amp;rsquo;s mind boggling how much material is out there to distract myself from, you know, &lt;em&gt;actually building things&lt;/em&gt;. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;h2 id=&#34;my-handicap&#34;&gt;My handicap&lt;/h2&gt;
-&lt;p&gt;It doesn&amp;rsquo;t help that I&amp;rsquo;m prone to analysis paralysis. And while I am aware of that, it still is a battle for me to not fall right into that trap (as I keep telling myself while I click on the next link to find out just a little bit more).&lt;br&gt;
-To make things harder, I also have a great knack for foreseeing potential problems a few miles down the road.&lt;/p&gt;
-&lt;p&gt;Granted, the latter has been valuable when working on longer term projects during regular employment. However, it is less than ideal if you just need to get a few small wins, as in &amp;ldquo;complete something that works, no need to be perfect&amp;rdquo;. &lt;em&gt;Problems down the road mean nothing when I haven&amp;rsquo;t even started the engine yet&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;But I digress. The above is just me warning myself to be mindful of my tendencies.&lt;/p&gt;
-&lt;h2 id=&#34;strategy-shift&#34;&gt;Strategy shift&lt;/h2&gt;
-&lt;p&gt;As I left my cushy, well-paid job, I had my sights set on the holy grail for the budding technical solopreneur: The glorious SaaS.&lt;br&gt;
-I wanted to code up a veritable farm of those. Like a llama farm, but with code. And less wool scraps to clean out, I suppose.&lt;/p&gt;
-&lt;p&gt;There&amp;rsquo;s only one hitch, though. My research tells me these are bloody hard to get right. Particularly as newbie. (I won&amp;rsquo;t list all the reasons why it is hard here. Check out the link in the next paragraph - it describes some of the gnarly pieces in play from experience - something I simply do not have.)&lt;/p&gt;
-&lt;p&gt;So, as much as I give myself a hard time fo reading rather than doing, I am grateful for coming across &amp;ldquo;&lt;a href=&#34;https://robwalling.com/2015/03/26/the-stairstep-approach-to-bootstrapping/&#34;&gt;The Stair Step Approach to Bootstrapping&lt;/a&gt;&amp;rdquo; by Rob Walling. While it&amp;rsquo;s from 2015, I think it has aged extremely well.&lt;br&gt;
-It basically puts the mighty SaaS venture in perspective when compared to simpler, easier-to-build products such as add-ons or plugins.&lt;/p&gt;
-&lt;p&gt;Putting the article above together with this tweet from Damon Cheng, I eventually had a bit of a lightbulb moment.&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I shipped all these apps in 2020. Most of them generated $0.&lt;br&gt;&lt;br&gt;🎬 &lt;a href=&#34;https://t.co/JAhXqsuu6h&#34;&gt;https://t.co/JAhXqsuu6h&lt;/a&gt; $0 &lt;br&gt;🌍 &lt;a href=&#34;https://t.co/BrNUAhfiIT&#34;&gt;https://t.co/BrNUAhfiIT&lt;/a&gt; $0&lt;br&gt;💡 &lt;a href=&#34;https://t.co/ZWcLfOH4aI&#34;&gt;https://t.co/ZWcLfOH4aI&lt;/a&gt; $0&lt;br&gt;🐞 &lt;a href=&#34;https://t.co/aghOxYEcPI&#34;&gt;https://t.co/aghOxYEcPI&lt;/a&gt; $1.99&lt;br&gt;👍 &lt;a href=&#34;https://t.co/2JhJLe27pW&#34;&gt;https://t.co/2JhJLe27pW&lt;/a&gt; $3,025 in 10 days.&lt;br&gt;&lt;br&gt;But that&amp;#39;s ok, just keep shipping! My stories👇&lt;/p&gt;&amp;mdash; Damon Chen (@damengchen) &lt;a href=&#34;https://twitter.com/damengchen/status/1344525420813697024?ref_src=twsrc%5Etfw&#34;&gt;December 31, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Those two pieces were the &lt;em&gt;right content at the right time&lt;/em&gt; for me.&lt;/p&gt;
-&lt;p&gt;Finally, the penny dropped for me that it is perfectly acceptable to start with something small. And it&amp;rsquo;s okay if it doesn&amp;rsquo;t sell. In fact, chances are high of landing a big fat zero for my first product attempts.&lt;br&gt;
-And even if I did beat the odds and my first try does sell, it probably won&amp;rsquo;t put me in a position to lean back in my hammock and watch the passive income roll in while lazily sipping a piña colada with a colorful mini umbrella atop right next to a slice of pineapple sculpted into something vaguely resembling a seashell.&lt;/p&gt;
-&lt;p&gt;I also realized that I have explicit permission from others to not succeed. And as long as I focus on something small that can be built in a reasonably short amount of time it simply is &lt;em&gt;no big deal&lt;/em&gt; if it doesn&amp;rsquo;t make money.&lt;/p&gt;
-&lt;h2 id=&#34;my-advantage&#34;&gt;My advantage&lt;/h2&gt;
-&lt;p&gt;To be fair, I am in an enviable position among peers who are starting this journey. My wife and I are financially stable enough that the loss of my income doesn&amp;rsquo;t pose a terminal risk to our future.&lt;br&gt;
-In fact, that may just be &lt;em&gt;my biggest edge&lt;/em&gt;: I don&amp;rsquo;t need to hustle for contracts, or keep working a day job and try to find the energy to build things at night. My wife puts no pressure on me to immediately replace my sweet income of the past. She has patience.&lt;/p&gt;
-&lt;p&gt;And since I now finally understood that I have permission to fail, it is up to me to find that first project, and execute. Maybe I should order a t-shirt: &lt;em&gt;Build first, build hard, no mercy&lt;/em&gt;.&lt;br&gt;
-Or maybe I should start building something instead of scouring the internet for a good deal on custom slogan t-shirts. Just this once, please.&lt;/p&gt;
-&lt;h2 id=&#34;next-steps&#34;&gt;Next steps&lt;/h2&gt;
-&lt;p&gt;So, what&amp;rsquo;s next?&lt;br&gt;
-Step 1: Find an idea. That&amp;rsquo;s it, really.&lt;/p&gt;
-&lt;p&gt;Previously I would have thought that is the hardest part. But since success is not required, almost any reasonable idea will do as long as I can build it fairly quickly.&lt;/p&gt;
-&lt;p&gt;To be brutally honest, I&amp;rsquo;m still not quite sure where &lt;em&gt;exactly&lt;/em&gt; to go hunting for ideas.
-My best-guess approach is to pick a marketplace for a platform with a low barrier to entry. Even better if:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I have used the platform before (and can create a free instance to play around with),&lt;/li&gt;
-&lt;li&gt;The platform has a reasonable API to integrate addons/plugins with,&lt;/li&gt;
-&lt;li&gt;It has a public feedback section, or a public feature wishlist where I can see which challenges users encounter for the platform.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I&amp;rsquo;m sure there are several nuggets out there.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ll report back once I&amp;rsquo;ve decided on something that I believe I can build in a reasonable amount of time.&lt;br&gt;
-And to summarize: For the first try I won&amp;rsquo;t try and guess/analyze if the product will make money. I just need to make sure I won&amp;rsquo;t burn money to keep it running.&lt;/p&gt;
-
-
-    
-
-
-
-&lt;div style=&#34;background-color: var(--secondary-bg-color); padding: 1em; margin-top: 0; padding-top: 0.1em;&#34;&gt;
-    &lt;div&gt;
-        &lt;h3&gt;Subscribe for future updates&lt;/h3&gt;
-    &lt;p&gt;
-        If you want to receive email reminders about new posts, subscribe below.&lt;br /&gt;
-        I won&#39;t use your email address for anything other than automating RSS feeds to send you an email when I post something new.
-    &lt;/p&gt;
-    &lt;/div&gt;
-    
-    &lt;div id=&#34;mc_embed_signup&#34;&gt;
-    &lt;form action=&#34;https://dev.us1.list-manage.com/subscribe/post?u=c31eb5ccf9a43ad78bce0af6d&amp;amp;id=5ca1f66a41&amp;SIGNUP=bespokesy%20blog&#34; method=&#34;post&#34; id=&#34;mc-embedded-subscribe-form&#34; name=&#34;mc-embedded-subscribe-form&#34; class=&#34;validate&#34; target=&#34;_blank&#34; novalidate&gt;
-        &lt;div id=&#34;mc_embed_signup_scroll&#34;&gt;
-        
-    &lt;div class=&#34;mc-field-group&#34;&gt;
-        &lt;label for=&#34;mce-EMAIL&#34;&gt;Email Address&lt;/label&gt;
-        &lt;input type=&#34;email&#34; value=&#34;&#34; name=&#34;EMAIL&#34; class=&#34;required email&#34; id=&#34;mce-EMAIL&#34; style=&#34;width:40%;&#34;&gt;
-        &lt;input type=&#34;submit&#34; value=&#34;Subscribe&#34; name=&#34;subscribe&#34; id=&#34;mc-embedded-subscribe&#34;&gt;
-    &lt;/div&gt;
-        &lt;div id=&#34;mce-responses&#34; class=&#34;clear&#34;&gt;
-            &lt;div class=&#34;response&#34; id=&#34;mce-error-response&#34; style=&#34;display:none&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;response&#34; id=&#34;mce-success-response&#34; style=&#34;display:none&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;    
-        &lt;div style=&#34;position: absolute; left: -5000px;&#34; aria-hidden=&#34;true&#34;&gt;&lt;input type=&#34;text&#34; name=&#34;b_c31eb5ccf9a43ad78bce0af6d_5ca1f66a41&#34; tabindex=&#34;-1&#34; value=&#34;&#34;&gt;&lt;/div&gt;
-        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/form&gt;
-    &lt;/div&gt;
-    &lt;script type=&#39;text/javascript&#39; src=&#39;//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js&#39;&gt;&lt;/script&gt;&lt;script type=&#39;text/javascript&#39;&gt;(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=&#39;EMAIL&#39;;ftypes[0]=&#39;email&#39;;fnames[1]=&#39;SIGNUP&#39;;ftypes[1]=&#39;text&#39;;}(jQuery));var $mcj = jQuery.noConflict(true);&lt;/script&gt;
-    
-&lt;/div&gt;
-
-
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://bespokesy.dev/post/welcome/</link>
-      <pubDate>Wed, 10 Mar 2021 11:18:47 +1100</pubDate>
-      
-      <guid>https://bespokesy.dev/post/welcome/</guid>
-      <description>&lt;p&gt;Welcome to my new website. And blog, I suppose.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m working hard behind the scenes to put together more details about some of the system integrations I have completed previously.&lt;br&gt;
-This might take a bit of time to complete. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;Meanwhile, I want to briefly explain how to best work with me. You know, just in case you stumble across this first post.&lt;/p&gt;
-&lt;h1 id=&#34;modus-operandi&#34;&gt;Modus operandi&lt;/h1&gt;
-&lt;p&gt;I tend to put generated value front and center of any system that I design and/or build.&lt;br&gt;
-&amp;ldquo;Value&amp;rdquo; in this context typically is tied alleviating a pain point for customers or the business.&lt;/p&gt;
-&lt;p&gt;The next important part is understanding which measure are in place to track progress towards good outcomes.&lt;/p&gt;
-&lt;p&gt;Having good, agreed-upon metrics telling me whether we are likely to meet those outcomes or need to pivot is absolutely key to that approach.&lt;/p&gt;
-&lt;p&gt;The final piece is adaptability. If our chosen metrics tell me the plan is &lt;em&gt;not&lt;/em&gt; working, we&amp;rsquo;d better revisit our path.
-This requires the willingness to be have data tell me that &amp;ldquo;the hypothesis is wrong.&amp;rdquo; And accept that message.&lt;/p&gt;
-&lt;h1 id=&#34;experience&#34;&gt;Experience&lt;/h1&gt;
-&lt;p&gt;I have spent over 20 years of my career creating, designing, and building software.&lt;/p&gt;
-&lt;p&gt;The projects I found myself having a natural inclination of doing well at had almost all to do with integrating various systems. Making them share data with each other, or process information from another system into a useful, new form.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve coded in more languages than it&amp;rsquo;d be useful to list. The list doesn&amp;rsquo;t really matter, either.  It doesn&amp;rsquo;t matter whether we&amp;rsquo;ve built an extension in C++, or a service using Java and Springboot, or put together a few lambdas strapped together with SQS and SNS; heck, maybe even a NoSQL DB and steps thrown in the mix. None of those details were really important in the end.&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Website of Brendon Votteler</title><link>https://bespokesy.dev/post/</link><description>Recent content in Posts on Website of Brendon Votteler</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 01 Apr 2021 11:32:49 +1100</lastBuildDate><atom:link href="https://bespokesy.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>My first few weeks in</title><link>https://bespokesy.dev/post/first_weeks/</link><pubDate>Thu, 01 Apr 2021 11:32:49 +1100</pubDate><guid>https://bespokesy.dev/post/first_weeks/</guid><description>&lt;p>I&amp;rsquo;ve felt pretty busy the past few weeks. Progress felt great at times; yet at the same time I spent a fair chunk of time waiting for administrative work to come through. But more on that later.&lt;br>
+Let me start with a recap to tie it all together with &lt;a href="https://bespokesy.dev/post/starting-a-product-portfolio">last week&amp;rsquo;s post&lt;/a>. I mentioned the one thing I wanted to get done: &lt;em>Find an idea&lt;/em>.&lt;/p>
+&lt;p>Spoiler alert: I did find an idea. &lt;!-- raw HTML omitted -->&lt;br>
+Granted it&amp;rsquo;s a small, probably low-value idea. However, it is small enough to fail fast and learn some valuable things.&lt;/p>
+&lt;h2 id="heres-how-i-found-the-idea">Here&amp;rsquo;s how I found the idea&lt;/h2>
+&lt;p>I actually found several ideas but discarded most. Many were too big to tackle quickly. Others may fit from a size perspective, but I had to pick one. Or rather, I think it picked me.&lt;/p>
+&lt;p>Just to reiterate. At this point in time, I&amp;rsquo;m not concerned about viability from a product-market fit perspective.&lt;br>
+Sure, I&amp;rsquo;ll have to get that viability part addressed in future projects. For right now, though, my first wins will be just having something out there. And being able to accept payment for it.&lt;/p>
+&lt;p>Building a small product should give me some important things to learn. And since I am not expecting to generate any revenue, I want to get it out quickly. No point in trying to launch a 5-month learning experience that is unlikely to be successful if I can get the lessons sooner than that.&lt;/p>
+&lt;p>Recently, I got in touch with the CEO of a company I used to work for. I needed to find out if I&amp;rsquo;m allowed to write about a few past projects I built under their banner.&lt;br>
+After my initial request, he sent back a reply that we&amp;rsquo;d better have a quick chat plus a &lt;a href="https://calendly.com">Calendly&lt;/a> link to find a time for that call. I booked a time, we had a chat.&lt;br>
+(Turns out writing about those projects is&amp;hellip; complicated. But that doesn&amp;rsquo;t matter in the context of this post.)&lt;/p>
+&lt;p>A few days later, I started thinking about simple projects to cut my teeth with. I kept circling back to plugins or addons for established platforms for the likes of Wordpress, Shopify, Etsy and so on.&lt;/p>
+&lt;p>I personally use &lt;a href="https://gohugo.io/">Hugo&lt;/a> for this website. Naturally, I started looking for addons for Hugo and noticed that there are very few around. Tons of themes, sure, but not many third party integrations.&lt;br>
+I suspect this is in part because Hugo doesn&amp;rsquo;t have a mature app marketplace (at least that I could find). On the flip side, Hugo itself does seem to grow in popularity.&lt;br>
+No, I won&amp;rsquo;t build a Hugo marketplace as my first product, either. Way too big. I need to make smaller mistakes before upgrading to the next size of Mistakes with a capital M.&lt;/p>
+&lt;p>So I examined popular Wordpress plugins to find a few that may make sense for Hugo. I made a shortlist and decided to narrow down the choice the next day.&lt;/p>
+&lt;p>The next morning, the Calendly link from a few days earlier popped back into my mind. It seemed to check a few boxes:&lt;/p>
+&lt;ul>
+&lt;li>It shouldn&amp;rsquo;t take me long to build something useful quickly&lt;/li>
+&lt;li>No one&amp;rsquo;s built it (that I could find anyway)&lt;/li>
+&lt;li>People are using Hugo, and it seems to be fairly popular&lt;/li>
+&lt;li>I believe there is a cross section of people with Hugo sites who may already use Calendly to schedule their calls.&lt;/li>
+&lt;/ul>
+&lt;p>I decided that&amp;rsquo;s good enough as a starter product. Sure, I didn&amp;rsquo;t find it on my initial run through Wordpress plugins, but that list of ideas to explore can sit in my notes for future inspection.&lt;/p>
+&lt;h2 id="calendly-shortcode-for-hugo">Calendly shortcode for Hugo&lt;/h2>
+&lt;p>Adding Calendly to your website is very easy. You get a &lt;a href="https://help.calendly.com/hc/en-us/articles/223147027-Embed-options-overview">html/js snippet to embed on your page&lt;/a> and you&amp;rsquo;re set!&lt;/p>
+&lt;p>But hang on&amp;hellip; what&amp;rsquo;s the point of making it a shortcode then?&lt;/p>
+&lt;p>To be blunt: for simple use cases it really doesn&amp;rsquo;t make any sense at all. Copy, paste, done. No need to muck around with &lt;a href="https://gohugo.io/content-management/shortcodes/">Hugo shortcodes&lt;/a>.&lt;/p>
+&lt;p>But there are scenarios where it &lt;strong>could&lt;/strong> make sense to use shortcodes instead&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>If you have multiple Calendly links spread over several pages&lt;/p>
+&lt;p>To update the format or style for all of them you&amp;rsquo;d need to edit all places. And better check you didn&amp;rsquo;t forget one instance.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If you have a page with, say, individual profiles with Calendly links&lt;/p>
+&lt;p>Similar to above. You&amp;rsquo;d need to update one page in several places.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You want to mix-and-match different embedded styles over various pages&lt;/p>
+&lt;p>With inline, popup text link, and popup widget styles, you need to keep track of slightly different variations. And again, if you want to adjust styles down the line, you&amp;rsquo;d need to got through each one again.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="this-where-a-shortcode-can-provide-value---if-done-right">This where a shortcode can provide value - if done right&lt;/h3>
+&lt;p>Given the above, I think there are situations where shortcodes can make your life easier.&lt;/p>
+&lt;p>The trick then is making the shortcode easy to use while still useful. By picking default values in a smart way.&lt;br>
+My basic idea was getting the style and/or embed type from the global scope (in &lt;code>config.toml&lt;/code> or a data file), from &lt;a href="https://gohugo.io/content-management/front-matter/">front-matter&lt;/a> as a page-specific default, or from parameters to the shortcode snippet directly. Whichever is closest to the shortcode itself overrides earlier ones.&lt;/p>
+&lt;p>You can set the overarching style in your config file, change the embed type in front-matter so it is consistent for that particular page and, finally, pick specific Calendly event types for the individual places where the shortcode is added.&lt;br>
+And when you need to change the overarching styles or embed type, you only need to update it in one spot. Change it for one page only? Update it in its front-matter. Easy.&lt;/p>
+&lt;h3 id="how-far-did-i-get">How far did I get?&lt;/h3>
+&lt;p>So far, I&amp;rsquo;ve managed to slap together a quick, very basic prototype. Only showing a popup text link (ie. only one embed type). You can set a parameter for the calendly user/event name. And you can change the link text if you don&amp;rsquo;t like the default. Nothing special. It looks like this:
+&lt;img src="https://bespokesy.dev/images/hugo-calendly-simple.gif" alt="demo gif of hugo-calendly-shortcode">&lt;/p>
+&lt;p>The majority of the time spent working on it was finding out how to make the shortcode available so it won&amp;rsquo;t interfere with other themes or modifications. I found the theme structure works well for that use case.&lt;/p>
+&lt;h2 id="then-there-was-all-that-admin-stuff">Then there was all that admin stuff&lt;/h2>
+&lt;p>Apart from slapping together a quick prototype for the Calendly shortcode, I had some administrative work to push along.&lt;br>
+Getting my company&amp;rsquo;s bank account set up, registering my domain, setting up email for my business, etc.&lt;/p>
+&lt;p>I suspect it took so long because I don&amp;rsquo;t do these often enough to simply rattle through it on auto pilot.&lt;/p>
+&lt;h2 id="learning-interesting-articlesvideos">Learning: Interesting articles/videos&lt;/h2>
+&lt;p>I also spent a few hours just learning a more about running a small solo business. Thankfully, I don&amp;rsquo;t feel like I spent too much time on &amp;ldquo;getting a bit better of an idea what the heck I&amp;rsquo;m actually supposed to do here.&amp;rdquo;&lt;/p>
+&lt;p>The two most valuable pieces recently are listed below. Particularly as a fresh starter to this solopreneur thing.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://jakobgreenfeld.com/free">What’s the point of free if you have nothing to sell&lt;/a> by Jakob Greenfeld&lt;/p>
+&lt;p>Made me question if I should offer the simple Calendly shortcode as open source to begin with. While I haven&amp;rsquo;t decided yet, this post raises some interesting points against going down that route to begin with.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://training.kalzumeus.com/newsletters/archive/do-not-end-the-week-with-nothing">Don&amp;rsquo;t End The Week With Nothing&lt;/a> by Patrick McKenzie (patio11)&lt;/p>
+&lt;p>I doubt patio11 needs an introduction. This post helped me pay attention to getting something tangible done each week.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="next-steps">Next steps&lt;/h2>
+&lt;p>During the next few weeks, I want to:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Get the finalized version of Hugo Calendly shortcodes that I can sell&lt;/p>
+&lt;p>The challenge is to not go overboard with options/features. Simple, yet useful is the goal. No more than that.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Find a way to distribute it&lt;/p>
+&lt;p>There are several avenues to explore. So far, &lt;a href="https://gumroad.com/">Gumroad&lt;/a> or &lt;a href="https://xscode.com/">xs:code&lt;/a> look promising. I want to explore more options. The choice also depends on the pricing model I choose.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Decide how to price it&lt;/p>
+&lt;p>One-and-done price? Recurring? Different tiers? There are several options and I need to pick a format that makes sense for such a small project. The final model will also flow into which distribution channel I want to use.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Explore how to market it&lt;/p>
+&lt;p>I need to take a closer look at who my audience is and where it&amp;rsquo;s hanging out. While I don&amp;rsquo;t expect huge sales, I hope the exercize helps with future projects.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Starting a Product Portfolio</title><link>https://bespokesy.dev/post/starting-a-product-portfolio/</link><pubDate>Mon, 15 Mar 2021 13:41:00 +1100</pubDate><guid>https://bespokesy.dev/post/starting-a-product-portfolio/</guid><description>&lt;p>I may have (finally) settled on a strategy on how to start building a portfolio of products.&lt;/p>
+&lt;p>Over the past week, I&amp;rsquo;ve spent a lot of time reading up on articles across indie hacker (IH) and related spaces, plus various posts linked from those sites. And the ever-deepening tree of content that branches off from those.&lt;br>
+Quite frankly, it&amp;rsquo;s mind boggling how much material is out there to distract myself from, you know, &lt;em>actually building things&lt;/em>. &lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="my-handicap">My handicap&lt;/h2>
+&lt;p>It doesn&amp;rsquo;t help that I&amp;rsquo;m prone to analysis paralysis. And while I am aware of that, it still is a battle for me to not fall right into that trap (as I keep telling myself while I click on the next link to find out just a little bit more).&lt;br>
+To make things harder, I also have a great knack for foreseeing potential problems a few miles down the road.&lt;/p>
+&lt;p>Granted, the latter has been valuable when working on longer term projects during regular employment. However, it is less than ideal if you just need to get a few small wins, as in &amp;ldquo;complete something that works, no need to be perfect&amp;rdquo;. &lt;em>Problems down the road mean nothing when I haven&amp;rsquo;t even started the engine yet&lt;/em>.&lt;/p>
+&lt;p>But I digress. The above is just me warning myself to be mindful of my tendencies.&lt;/p>
+&lt;h2 id="strategy-shift">Strategy shift&lt;/h2>
+&lt;p>As I left my cushy, well-paid job, I had my sights set on the holy grail for the budding technical solopreneur: The glorious SaaS.&lt;br>
+I wanted to code up a veritable farm of those. Like a llama farm, but with code. And less wool scraps to clean out, I suppose.&lt;/p>
+&lt;p>There&amp;rsquo;s only one hitch, though. My research tells me these are bloody hard to get right. Particularly as newbie. (I won&amp;rsquo;t list all the reasons why it is hard here. Check out the link in the next paragraph - it describes some of the gnarly pieces in play from experience - something I simply do not have.)&lt;/p>
+&lt;p>So, as much as I give myself a hard time fo reading rather than doing, I am grateful for coming across &amp;ldquo;&lt;a href="https://robwalling.com/2015/03/26/the-stairstep-approach-to-bootstrapping/">The Stair Step Approach to Bootstrapping&lt;/a>&amp;rdquo; by Rob Walling. While it&amp;rsquo;s from 2015, I think it has aged extremely well.&lt;br>
+It basically puts the mighty SaaS venture in perspective when compared to simpler, easier-to-build products such as add-ons or plugins.&lt;/p>
+&lt;p>Putting the article above together with this tweet from Damon Cheng, I eventually had a bit of a lightbulb moment.&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">I shipped all these apps in 2020. Most of them generated $0.&lt;br>&lt;br>🎬 &lt;a href="https://t.co/JAhXqsuu6h">https://t.co/JAhXqsuu6h&lt;/a> $0 &lt;br>🌍 &lt;a href="https://t.co/BrNUAhfiIT">https://t.co/BrNUAhfiIT&lt;/a> $0&lt;br>💡 &lt;a href="https://t.co/ZWcLfOH4aI">https://t.co/ZWcLfOH4aI&lt;/a> $0&lt;br>🐞 &lt;a href="https://t.co/aghOxYEcPI">https://t.co/aghOxYEcPI&lt;/a> $1.99&lt;br>👍 &lt;a href="https://t.co/2JhJLe27pW">https://t.co/2JhJLe27pW&lt;/a> $3,025 in 10 days.&lt;br>&lt;br>But that&amp;#39;s ok, just keep shipping! My stories👇&lt;/p>&amp;mdash; Damon Chen (@damengchen) &lt;a href="https://twitter.com/damengchen/status/1344525420813697024?ref_src=twsrc%5Etfw">December 31, 2020&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>Those two pieces were the &lt;em>right content at the right time&lt;/em> for me.&lt;/p>
+&lt;p>Finally, the penny dropped for me that it is perfectly acceptable to start with something small. And it&amp;rsquo;s okay if it doesn&amp;rsquo;t sell. In fact, chances are high of landing a big fat zero for my first product attempts.&lt;br>
+And even if I did beat the odds and my first try does sell, it probably won&amp;rsquo;t put me in a position to lean back in my hammock and watch the passive income roll in while lazily sipping a piña colada with a colorful mini umbrella atop right next to a slice of pineapple sculpted into something vaguely resembling a seashell.&lt;/p>
+&lt;p>I also realized that I have explicit permission from others to not succeed. And as long as I focus on something small that can be built in a reasonably short amount of time it simply is &lt;em>no big deal&lt;/em> if it doesn&amp;rsquo;t make money.&lt;/p>
+&lt;h2 id="my-advantage">My advantage&lt;/h2>
+&lt;p>To be fair, I am in an enviable position among peers who are starting this journey. My wife and I are financially stable enough that the loss of my income doesn&amp;rsquo;t pose a terminal risk to our future.&lt;br>
+In fact, that may just be &lt;em>my biggest edge&lt;/em>: I don&amp;rsquo;t need to hustle for contracts, or keep working a day job and try to find the energy to build things at night. My wife puts no pressure on me to immediately replace my sweet income of the past. She has patience.&lt;/p>
+&lt;p>And since I now finally understood that I have permission to fail, it is up to me to find that first project, and execute. Maybe I should order a t-shirt: &lt;em>Build first, build hard, no mercy&lt;/em>.&lt;br>
+Or maybe I should start building something instead of scouring the internet for a good deal on custom slogan t-shirts. Just this once, please.&lt;/p>
+&lt;h2 id="next-steps">Next steps&lt;/h2>
+&lt;p>So, what&amp;rsquo;s next?&lt;br>
+Step 1: Find an idea. That&amp;rsquo;s it, really.&lt;/p>
+&lt;p>Previously I would have thought that is the hardest part. But since success is not required, almost any reasonable idea will do as long as I can build it fairly quickly.&lt;/p>
+&lt;p>To be brutally honest, I&amp;rsquo;m still not quite sure where &lt;em>exactly&lt;/em> to go hunting for ideas.
+My best-guess approach is to pick a marketplace for a platform with a low barrier to entry. Even better if:&lt;/p>
+&lt;ul>
+&lt;li>I have used the platform before (and can create a free instance to play around with),&lt;/li>
+&lt;li>The platform has a reasonable API to integrate addons/plugins with,&lt;/li>
+&lt;li>It has a public feedback section, or a public feature wishlist where I can see which challenges users encounter for the platform.&lt;/li>
+&lt;/ul>
+&lt;p>I&amp;rsquo;m sure there are several nuggets out there.&lt;/p>
+&lt;p>I&amp;rsquo;ll report back once I&amp;rsquo;ve decided on something that I believe I can build in a reasonable amount of time.&lt;br>
+And to summarize: For the first try I won&amp;rsquo;t try and guess/analyze if the product will make money. I just need to make sure I won&amp;rsquo;t burn money to keep it running.&lt;/p></description></item><item><title>Welcome</title><link>https://bespokesy.dev/post/welcome/</link><pubDate>Wed, 10 Mar 2021 11:18:47 +1100</pubDate><guid>https://bespokesy.dev/post/welcome/</guid><description>&lt;p>Welcome to my new website. And blog, I suppose.&lt;/p>
+&lt;p>I&amp;rsquo;m working hard behind the scenes to put together more details about some of the system integrations I have completed previously.&lt;br>
+This might take a bit of time to complete. &lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Meanwhile, I want to briefly explain how to best work with me. You know, just in case you stumble across this first post.&lt;/p>
+&lt;h1 id="modus-operandi">Modus operandi&lt;/h1>
+&lt;p>I tend to put generated value front and center of any system that I design and/or build.&lt;br>
+&amp;ldquo;Value&amp;rdquo; in this context typically is tied alleviating a pain point for customers or the business.&lt;/p>
+&lt;p>The next important part is understanding which measure are in place to track progress towards good outcomes.&lt;/p>
+&lt;p>Having good, agreed-upon metrics telling me whether we are likely to meet those outcomes or need to pivot is absolutely key to that approach.&lt;/p>
+&lt;p>The final piece is adaptability. If our chosen metrics tell me the plan is &lt;em>not&lt;/em> working, we&amp;rsquo;d better revisit our path.
+This requires the willingness to be have data tell me that &amp;ldquo;the hypothesis is wrong.&amp;rdquo; And accept that message.&lt;/p>
+&lt;h1 id="experience">Experience&lt;/h1>
+&lt;p>I have spent over 20 years of my career creating, designing, and building software.&lt;/p>
+&lt;p>The projects I found myself having a natural inclination of doing well at had almost all to do with integrating various systems. Making them share data with each other, or process information from another system into a useful, new form.&lt;/p>
+&lt;p>I&amp;rsquo;ve coded in more languages than it&amp;rsquo;d be useful to list. The list doesn&amp;rsquo;t really matter, either. It doesn&amp;rsquo;t matter whether we&amp;rsquo;ve built an extension in C++, or a service using Java and Springboot, or put together a few lambdas strapped together with SQS and SNS; heck, maybe even a NoSQL DB and steps thrown in the mix. None of those details were really important in the end.&lt;br>
 The only thing that always mattered were business outcomes. What value did we provide? What did the value look like? How were customers served better? Did we improve workflows and save time for internal teams?
-Those are the questions worth asking.&lt;/p&gt;
-&lt;p&gt;(Update: See also the &lt;a href=&#34;https://bespokesy.dev/about/&#34;&gt;about page&lt;/a&gt;)&lt;/p&gt;
-&lt;h1 id=&#34;final-note&#34;&gt;Final note&lt;/h1&gt;
-&lt;p&gt;I am fairly inexperienced when it comes to posting blogs, articles, etc. I completely expect to be a bit rough around the edges when writing content in this form.
-Please cut me some slack while I continue to learn and (hopefully) improve over time.&lt;br&gt;
-Having said that, though, feedback is always welcome.&lt;/p&gt;
-&lt;p&gt;(Update: Don&amp;rsquo;t hesitate to head over to my &lt;a href=&#34;https://bespokesy.dev/contact/&#34;&gt;contact page&lt;/a&gt; if you&amp;rsquo;d like to start a conversation with me.)&lt;/p&gt;
-
-
-    
-
-
-
-&lt;div style=&#34;background-color: var(--secondary-bg-color); padding: 1em; margin-top: 0; padding-top: 0.1em;&#34;&gt;
-    &lt;div&gt;
-        &lt;h3&gt;Subscribe for future updates&lt;/h3&gt;
-    &lt;p&gt;
-        If you want to receive email reminders about new posts, subscribe below.&lt;br /&gt;
-        I won&#39;t use your email address for anything other than automating RSS feeds to send you an email when I post something new.
-    &lt;/p&gt;
-    &lt;/div&gt;
-    
-    &lt;div id=&#34;mc_embed_signup&#34;&gt;
-    &lt;form action=&#34;https://dev.us1.list-manage.com/subscribe/post?u=c31eb5ccf9a43ad78bce0af6d&amp;amp;id=5ca1f66a41&amp;SIGNUP=bespokesy%20blog&#34; method=&#34;post&#34; id=&#34;mc-embedded-subscribe-form&#34; name=&#34;mc-embedded-subscribe-form&#34; class=&#34;validate&#34; target=&#34;_blank&#34; novalidate&gt;
-        &lt;div id=&#34;mc_embed_signup_scroll&#34;&gt;
-        
-    &lt;div class=&#34;mc-field-group&#34;&gt;
-        &lt;label for=&#34;mce-EMAIL&#34;&gt;Email Address&lt;/label&gt;
-        &lt;input type=&#34;email&#34; value=&#34;&#34; name=&#34;EMAIL&#34; class=&#34;required email&#34; id=&#34;mce-EMAIL&#34; style=&#34;width:40%;&#34;&gt;
-        &lt;input type=&#34;submit&#34; value=&#34;Subscribe&#34; name=&#34;subscribe&#34; id=&#34;mc-embedded-subscribe&#34;&gt;
-    &lt;/div&gt;
-        &lt;div id=&#34;mce-responses&#34; class=&#34;clear&#34;&gt;
-            &lt;div class=&#34;response&#34; id=&#34;mce-error-response&#34; style=&#34;display:none&#34;&gt;&lt;/div&gt;
-            &lt;div class=&#34;response&#34; id=&#34;mce-success-response&#34; style=&#34;display:none&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;    
-        &lt;div style=&#34;position: absolute; left: -5000px;&#34; aria-hidden=&#34;true&#34;&gt;&lt;input type=&#34;text&#34; name=&#34;b_c31eb5ccf9a43ad78bce0af6d_5ca1f66a41&#34; tabindex=&#34;-1&#34; value=&#34;&#34;&gt;&lt;/div&gt;
-        &lt;div class=&#34;clear&#34;&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/form&gt;
-    &lt;/div&gt;
-    &lt;script type=&#39;text/javascript&#39; src=&#39;//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js&#39;&gt;&lt;/script&gt;&lt;script type=&#39;text/javascript&#39;&gt;(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=&#39;EMAIL&#39;;ftypes[0]=&#39;email&#39;;fnames[1]=&#39;SIGNUP&#39;;ftypes[1]=&#39;text&#39;;}(jQuery));var $mcj = jQuery.noConflict(true);&lt;/script&gt;
-    
-&lt;/div&gt;
-
-
-</description>
-    </item>
-    
-  </channel>
-</rss>
+Those are the questions worth asking.&lt;/p>
+&lt;p>(Update: See also the &lt;a href="https://bespokesy.dev/about/">about page&lt;/a>)&lt;/p>
+&lt;h1 id="final-note">Final note&lt;/h1>
+&lt;p>I am fairly inexperienced when it comes to posting blogs, articles, etc. I completely expect to be a bit rough around the edges when writing content in this form.
+Please cut me some slack while I continue to learn and (hopefully) improve over time.&lt;br>
+Having said that, though, feedback is always welcome.&lt;/p>
+&lt;p>(Update: Don&amp;rsquo;t hesitate to head over to my &lt;a href="https://bespokesy.dev/contact/">contact page&lt;/a> if you&amp;rsquo;d like to start a conversation with me.)&lt;/p></description></item></channel></rss>
