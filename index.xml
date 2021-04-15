@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Website of Brendon Votteler</title><link>https://bespokesy.dev/</link><description>Recent content on Website of Brendon Votteler</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 01 Apr 2021 11:32:49 +1100</lastBuildDate><atom:link href="https://bespokesy.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>My first few weeks in</title><link>https://bespokesy.dev/post/first_weeks/</link><pubDate>Thu, 01 Apr 2021 11:32:49 +1100</pubDate><guid>https://bespokesy.dev/post/first_weeks/</guid><description>&lt;p>I&amp;rsquo;ve felt pretty busy the past few weeks. Progress felt great at times; yet at the same time I spent a fair chunk of time waiting for administrative work to come through. But more on that later.&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Website of Brendon Votteler</title><link>https://bespokesy.dev/</link><description>Recent content on Website of Brendon Votteler</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 15 Apr 2021 09:51:58 +1000</lastBuildDate><atom:link href="https://bespokesy.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Published my first piece - hugo-calendly-shortcode</title><link>https://bespokesy.dev/post/published-first-piece/</link><pubDate>Thu, 15 Apr 2021 09:51:58 +1000</pubDate><guid>https://bespokesy.dev/post/published-first-piece/</guid><description>&lt;p>Recently, I&amp;rsquo;ve published my first little Hugo shortcode since starting down this journey: &lt;a href="https://github.com/bespokesy/hugo-calendly-shortcode">hugo-calendly-shortcode&lt;/a> and created a &lt;a href="https://bespokesy.github.io/hugo-calendly-shortcode-demo-site/">small demo site&lt;/a> to show what it looks like. Head on over to take a look!&lt;/p>
+&lt;p>The code is free and open source, so it won&amp;rsquo;t bring in revenue. However, it forms a good basis to build an advanced version of it with more features - particularly for end users with a Pro or Premium subscription of Calendly.&lt;br>
+And also: Sharing is caring. It might just help a few folks out to get more out of Hugo.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>And so I sent out a tweet.
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">I&amp;#39;ve built a simple &lt;a href="https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gohugo&lt;/a> shortcode to embed &lt;a href="https://twitter.com/hashtag/calendly?src=hash&amp;amp;ref_src=twsrc%5Etfw">#calendly&lt;/a> on your Hugo page.&lt;br>Here&amp;#39;s the demo site: &lt;a href="https://t.co/O3gXL5RurU">https://t.co/O3gXL5RurU&lt;/a> &lt;a href="https://t.co/3gKJESPNZE">pic.twitter.com/3gKJESPNZE&lt;/a>&lt;/p>&amp;mdash; Brendon Votteler (@bvotteler) &lt;a href="https://twitter.com/bvotteler/status/1382214930531717124?ref_src=twsrc%5Etfw">April 14, 2021&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;/p>
+&lt;p>Which was met with silence.&lt;br>
+To be fair, though, I didn&amp;rsquo;t expect anything else. I haven&amp;rsquo;t used Twitter in ages, and even cleaned out my old tweets a while ago. So, I&amp;rsquo;m starting from a squeaky clean slate with basically no followers.&lt;/p>
+&lt;h2 id="why-free--open-source">Why free &amp;amp; open source?&lt;/h2>
+&lt;p>I thought about this long and hard. In a nutshell, the basic version is marginally more useful than simply copying and pasting the html/js snippets from Calendly&amp;rsquo;s webpage. The shortcode is somewhat easier to use (I hope), but the only real power it provides is to have the same, consistent style across multiple Calendly embeds for a Hugo site without needing to keep multiple copy &amp;amp; pasted snippets up to date.&lt;/p>
+&lt;h2 id="advanced-paid-features-are-coming">Advanced, paid features are coming&lt;/h2>
+&lt;p>I can enhance the usefulness of the shortcode with several additional parameters to control the look &amp;amp; feel of the Calendly popup/inline forms. The Pro and Premium versions of Calendly also enable more CSS styling options through their API. I will target those with the advanced version.&lt;br>
+I&amp;rsquo;ll call the advanced version &lt;code>hugo-calendly-shortcode-plus&lt;/code>.&lt;/p>
+&lt;p>In addition to styling options, I want &lt;code>hugo-calendly-shortcode-plus&lt;/code> to pull parameters from multiple sources rather than only from shortcode parameters fed through. Then you can have defaults defined in a Hugo data file or the site configuration, and override those in front-matter, or as direct parameter for the shortcode itself.&lt;br>
+The above should help achieving a more consistent look and feel for people who need to embed multiple Calendly events on their Hugo site.&lt;/p>
+&lt;p>The additional features are in progress already. I hope, the version is ready to ship within the next two weeks.&lt;br>
+If you want to receive updates when I release it, you can sign up using the form below.&lt;/p>
+&lt;h2 id="decisions-on-distribution--pricing">Decisions on distribution &amp;amp; pricing&lt;/h2>
+&lt;p>Distribution is another point I wanted to figure out (as mentioned in &amp;ldquo;next steps&amp;rdquo; of my &lt;a href="https://bespokesy.dev/post/first_weeks/#next-steps">last post&lt;/a>).&lt;/p>
+&lt;p>My plan is to sell &lt;code>hugo-calendly-shortcode-plus&lt;/code> for a fixed price - ie. no subscription model. Therefore, I will go with &lt;a href="https://gumroad.com/">Gumroad&lt;/a>. Then deliver the code as a simple zip file, and add customers to an email list for future fixes &amp;amp; updates.&lt;/p>
+&lt;p>As for pricing and tiers, I haven&amp;rsquo;t made up my mind yet. I am aiming to find a price point for customers that is well under the time &amp;amp; cost required to develop something like it themselves. For higher tiers, I may include availability for direct support by myself. I certainly want to have a collection of use-cases documented to add to the mix, too. I am also considering creating a short video tutorial on how to use it.&lt;/p>
+&lt;p>So, there are still quite a few decisions to be made. But I will get around to those when they become urgent. For the time being, I&amp;rsquo;ve filed those away in the back of my mind for my subconscious to work away at it.&lt;/p>
+&lt;h2 id="other-stuff-ive-worked-on">Other stuff I&amp;rsquo;ve worked on&lt;/h2>
+&lt;p>&lt;code>hugo-calendly-shortcode&lt;/code> certainly took up the majority of my time. But the surprising part may be how much time I spent getting the infrastructure around it set up. These are some of the things that were tangentially related to the work that did not include coding, repository management, etc:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Building a demo site&lt;/strong>&lt;/p>
+&lt;p>This didn&amp;rsquo;t take terribly long. But I did spend some time wrangling the theme to help me highlight the use-cases better. I spent most time on creating the &amp;ldquo;posts&amp;rdquo; showcasing the different ways to use it.&lt;br>
+There is still some more work to be done (I&amp;rsquo;m not 100% happy with the front page), but it is less urgent for the time being.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Setting up a mailing list&lt;/strong>&lt;/p>
+&lt;p>Choosing, experimenting, and integrating a mailing list provider was very time consuming. I initially ran with MailChimp, and within a day or two switched over to MailerLite. Simply because I think I can manage groups more effectively on the latter. (With MailChimp I may have had to add more audiences for each future product which can get costly).&lt;br>
+Side-effect: I built two more shortcodes, one for each provider, just to make integration on my own sites easier.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="next-steps">Next steps&lt;/h2>
+&lt;p>Below are the most important things I want to pay attention to over the next few weeks. We&amp;rsquo;ll see how that will have went with the next update. :)&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Further explore how to market hugo-calendly-shortcode&lt;/p>
+&lt;p>Yep, a repeat from my last post. I still need to find good spots where I can post about the shortcode without being seen as a spammer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Complete the advanced version&lt;/p>
+&lt;p>This should be straight forward from a code perspective. Other &amp;ldquo;smaller&amp;rdquo; things, such as creating a EULA may well take a fair chunk of time.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Sign up for distribution&lt;/p>
+&lt;p>Create an account with Gumroad and all that entails - like one of their supported payment providers for which I&amp;rsquo;ll need to sign up, too.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Decide on price &amp;amp; tiers&lt;/p>
+&lt;p>I have a vague idea, but need to think about this more deeply and just pick a point and tiers to start with. I can always pivot and change later, so no need to overanalyze. However, I do want to avoid pricing it way-too-cheap™.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>So, there&amp;rsquo;s more work waiting before I can launch this mini product. However, I am very happy with my progress.&lt;br>
+I expected to learn a lot - particularly around distribution and pricing - and have not been disappointed so far. There is a &lt;em>ton&lt;/em> of things still out there for me to learn on this journey. I&amp;rsquo;m ready and excited!&lt;/p></description></item><item><title>My first few weeks in</title><link>https://bespokesy.dev/post/first_weeks/</link><pubDate>Thu, 01 Apr 2021 11:32:49 +1100</pubDate><guid>https://bespokesy.dev/post/first_weeks/</guid><description>&lt;p>I&amp;rsquo;ve felt pretty busy the past few weeks. Progress felt great at times; yet at the same time I spent a fair chunk of time waiting for administrative work to come through. But more on that later.&lt;br>
 Let me start with a recap to tie it all together with &lt;a href="https://bespokesy.dev/post/starting-a-product-portfolio">last week&amp;rsquo;s post&lt;/a>. I mentioned the one thing I wanted to get done: &lt;em>Find an idea&lt;/em>.&lt;/p>
 &lt;p>Spoiler alert: I did find an idea. &lt;!-- raw HTML omitted -->&lt;br>
 Granted it&amp;rsquo;s a small, probably low-value idea. However, it is small enough to fail fast and learn some valuable things.&lt;/p>
@@ -153,20 +212,20 @@ Those are the questions worth asking.&lt;/p>
 Please cut me some slack while I continue to learn and (hopefully) improve over time.&lt;br>
 Having said that, though, feedback is always welcome.&lt;/p>
 &lt;p>(Update: Don&amp;rsquo;t hesitate to head over to my &lt;a href="https://bespokesy.dev/contact/">contact page&lt;/a> if you&amp;rsquo;d like to start a conversation with me.)&lt;/p></description></item><item><title>About</title><link>https://bespokesy.dev/about/</link><pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate><guid>https://bespokesy.dev/about/</guid><description>&lt;p>I&amp;rsquo;ve spent over 20 years of my career creating, designing, and building software.&lt;/p>
-&lt;p>Over that time, I&amp;rsquo;ve accumulated heaps of experience integrating systems. Whether that we integrated systems via chatbots, app links, push- or pull-based APIs &amp;amp; webhooks, or even good old-fashioned nightly batch jobs.&lt;br>
+&lt;p>Naturally, I&amp;rsquo;ve accumulated heaps of experience integrating systems. Whether that we integrated systems via chatbots, app links, push- or pull-based APIs &amp;amp; webhooks, or even good old-fashioned nightly batch jobs.&lt;br>
 There are several ways to go about making systems talk to each other, and I&amp;rsquo;ve seen many variations thereof.&lt;/p>
 &lt;h2 id="my-company">My company&lt;/h2>
 &lt;p>I founded Bespoke Systems Integration Pty Ltd with the purpose of building useful products/plugins/addons for various ecosystems.&lt;br>
-Truth be told, at the time of writing this (Mar 2021), I haven&amp;rsquo;t narrowed down my focus onto specific platform(s) just yet. There are plenty of possibilities, and I have more research to do before picking the most promising ones. And discarding others that do not work well for solo builders like me.&lt;/p>
-&lt;p>Another goal, or &amp;ldquo;arm&amp;rdquo; of the business (for lack of a better term) is providing consulting services for clients' custom integrations. I may even end up building those where it makes sense.&lt;br>
-I want to share my years of experience by helping clients create a map that shows the path from an idea to a finished product in clear, distinct steps. How and when to measure what, and how to reduce risk and costs along the way.&lt;/p>
+My aim is to build up a portfolio of small products rather than setting out with the goal to build one, big product. Some smaller projects may evolve eventually. So, never say &amp;ldquo;never&amp;rdquo;.&lt;/p>
+&lt;p>My secondary goal is providing consulting services for clients' custom integrations. I may even end up building those where it makes sense.&lt;br>
+I want to use my past experience to help potential clients create a map that shows the path from an idea to a finished product in clear, distinct steps. How and when to measure what, and how to reduce risks and costs along the way.&lt;/p>
 &lt;h2 id="motivation">Motivation&lt;/h2>
 &lt;p>After all these years, I still love working with code. I like to understand the business and/or customer problems the software is supposed to solve, build a clear understanding of what success should look like, and find ways to measure progress sooner rather than later during the lifetime of a project.&lt;/p>
 &lt;p>The perfect project for me is having unambiguous metrics in place to be able to track progress towards a clear goal which benefits a business and its customers.&lt;/p>
 &lt;h2 id="contact">Contact&lt;/h2>
 &lt;p>You&amp;rsquo;re always welcome to get in touch with me. Check out my contact details &lt;a href="https://bespokesy.dev/contact/">here&lt;/a>.&lt;/p></description></item><item><title>Contact</title><link>https://bespokesy.dev/contact/</link><pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate><guid>https://bespokesy.dev/contact/</guid><description>&lt;p>The easiest way to start a conversation with me is by &lt;a href="mailto:brendon@bespokesy.dev">email&lt;/a>.&lt;br>
-You can expect me to reply before the end of the next business day.&lt;/p>
-&lt;p>Alternatively, you can also message me on &lt;a href="https://www.linkedin.com/in/brendonvotteler/">LinkedIn&lt;/a>.&lt;/p></description></item><item><title>My Candidate Description</title><link>https://bespokesy.dev/candidate/</link><pubDate>Tue, 09 Mar 2021 10:08:31 +1100</pubDate><guid>https://bespokesy.dev/candidate/</guid><description>&lt;p>If you are reading this, chances are that you are a recruiter and I have sent you a link as part of an initial exchange. Or you asked me in another capacity if I would be interested in working on something.&lt;br>
+You can expect me to typically reply before the end of the next business day.&lt;/p>
+&lt;p>Alternatively, you can message me on &lt;a href="https://www.linkedin.com/in/brendonvotteler/">LinkedIn&lt;/a> - beware that I don&amp;rsquo;t check in daily, though.&lt;/p></description></item><item><title>My Candidate Description</title><link>https://bespokesy.dev/candidate/</link><pubDate>Tue, 09 Mar 2021 10:08:31 +1100</pubDate><guid>https://bespokesy.dev/candidate/</guid><description>&lt;p>If you are reading this, chances are that you are a recruiter and I have sent you a link as part of an initial exchange. Or you asked me in another capacity if I would be interested in working on something.&lt;br>
 I want to start by to saying thank you for taking the time to read this. Making it this far sets you apart from the copy-paste-fire cohort who give recruiters a bad rep. I created this page to be able to deal with request volumes when they come in bursts - as they typically do.&lt;/p>
 &lt;p>What I have written below is a my &lt;em>candidate description&lt;/em>. I hope it helps you save time when you can see all the important bits in one place to decide whether it is worth your time to engage with me. Rather than trying to uncover them piece-by-piece through conversations.&lt;br>
 It also helps me: I reduce the times I need to repeat myself and the message is more consistent. I don&amp;rsquo;t run the risk of having forgotten &lt;em>something important&lt;/em>. (Imagine four conversations later: &amp;ldquo;oh, btw. I&amp;rsquo;m only available for remote roles. Whoops, should&amp;rsquo;ve mentioned that earlier&amp;hellip;&amp;quot;)&lt;/p>
