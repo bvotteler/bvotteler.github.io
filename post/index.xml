@@ -17,6 +17,33 @@ I&amp;rsquo;ll call the advanced version &lt;code>hugo-calendly-shortcode-plus&l
 The above should help achieving a more consistent look and feel for people who need to embed multiple Calendly events on their Hugo site.&lt;/p>
 &lt;p>The additional features are in progress already. I hope, the version is ready to ship within the next two weeks.&lt;br>
 If you want to receive updates when I release it, you can sign up using the form below.&lt;/p>
+&lt;script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+var ml_account = ml('accounts', '3074539', 'u5b9q6h0b0', 'load');
+&lt;/script>
+&lt;div class="ml-form-embed"
+data-account=3074539:u5b9q6h0b0
+data-form=3919441:v3z7p1>
+&lt;/div>
+&lt;style>
+#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+background-color: var(--secondary-bg-color);
+padding: 1em;
+width: 60%;
+max-width: unset;
+}
+#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+color: unset;
+font-family: unset;
+font-weight: 1em;
+}
+&lt;/style>
 &lt;h2 id="decisions-on-distribution--pricing">Decisions on distribution &amp;amp; pricing&lt;/h2>
 &lt;p>Distribution is another point I wanted to figure out (as mentioned in &amp;ldquo;next steps&amp;rdquo; of my &lt;a href="https://bespokesy.dev/post/first_weeks/#next-steps">last post&lt;/a>).&lt;/p>
 &lt;p>My plan is to sell &lt;code>hugo-calendly-shortcode-plus&lt;/code> for a fixed price - ie. no subscription model. Therefore, I will go with &lt;a href="https://gumroad.com/">Gumroad&lt;/a>. Then deliver the code as a simple zip file, and add customers to an email list for future fixes &amp;amp; updates.&lt;/p>
@@ -57,7 +84,34 @@ Side-effect: I built two more shortcodes, one for each provider, just to make in
 &lt;/li>
 &lt;/ul>
 &lt;p>So, there&amp;rsquo;s more work waiting before I can launch this mini product. However, I am very happy with my progress.&lt;br>
-I expected to learn a lot - particularly around distribution and pricing - and have not been disappointed so far. There is a &lt;em>ton&lt;/em> of things still out there for me to learn on this journey. I&amp;rsquo;m ready and excited!&lt;/p></description></item><item><title>My first few weeks in</title><link>https://bespokesy.dev/post/first_weeks/</link><pubDate>Thu, 01 Apr 2021 11:32:49 +1100</pubDate><guid>https://bespokesy.dev/post/first_weeks/</guid><description>&lt;p>I&amp;rsquo;ve felt pretty busy the past few weeks. Progress felt great at times; yet at the same time I spent a fair chunk of time waiting for administrative work to come through. But more on that later.&lt;br>
+I expected to learn a lot - particularly around distribution and pricing - and have not been disappointed so far. There is a &lt;em>ton&lt;/em> of things still out there for me to learn on this journey. I&amp;rsquo;m ready and excited!&lt;/p>
+&lt;script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+var ml_account = ml('accounts', '3074539', 'u5b9q6h0b0', 'load');
+&lt;/script>
+&lt;div class="ml-form-embed"
+data-account=3074539:u5b9q6h0b0
+data-form=3919285:f4p1k1>
+&lt;/div>
+&lt;style>
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+background-color: var(--secondary-bg-color);
+padding: 1em;
+width: 60%;
+max-width: unset;
+}
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+color: unset;
+font-family: unset;
+font-weight: 1em;
+}
+&lt;/style></description></item><item><title>My first few weeks in</title><link>https://bespokesy.dev/post/first_weeks/</link><pubDate>Thu, 01 Apr 2021 11:32:49 +1100</pubDate><guid>https://bespokesy.dev/post/first_weeks/</guid><description>&lt;p>I&amp;rsquo;ve felt pretty busy the past few weeks. Progress felt great at times; yet at the same time I spent a fair chunk of time waiting for administrative work to come through. But more on that later.&lt;br>
 Let me start with a recap to tie it all together with &lt;a href="https://bespokesy.dev/post/starting-a-product-portfolio">last week&amp;rsquo;s post&lt;/a>. I mentioned the one thing I wanted to get done: &lt;em>Find an idea&lt;/em>.&lt;/p>
 &lt;p>Spoiler alert: I did find an idea. &lt;!-- raw HTML omitted -->&lt;br>
 Granted it&amp;rsquo;s a small, probably low-value idea. However, it is small enough to fail fast and learn some valuable things.&lt;/p>
@@ -147,7 +201,34 @@ Getting my company&amp;rsquo;s bank account set up, registering my domain, setti
 &lt;p>Explore how to market it&lt;/p>
 &lt;p>I need to take a closer look at who my audience is and where it&amp;rsquo;s hanging out. While I don&amp;rsquo;t expect huge sales, I hope the exercize helps with future projects.&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>Starting a Product Portfolio</title><link>https://bespokesy.dev/post/starting-a-product-portfolio/</link><pubDate>Mon, 15 Mar 2021 13:41:00 +1100</pubDate><guid>https://bespokesy.dev/post/starting-a-product-portfolio/</guid><description>&lt;p>I may have (finally) settled on a strategy on how to start building a portfolio of products.&lt;/p>
+&lt;/ul>
+&lt;script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+var ml_account = ml('accounts', '3074539', 'u5b9q6h0b0', 'load');
+&lt;/script>
+&lt;div class="ml-form-embed"
+data-account=3074539:u5b9q6h0b0
+data-form=3919285:f4p1k1>
+&lt;/div>
+&lt;style>
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+background-color: var(--secondary-bg-color);
+padding: 1em;
+width: 60%;
+max-width: unset;
+}
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+color: unset;
+font-family: unset;
+font-weight: 1em;
+}
+&lt;/style></description></item><item><title>Starting a Product Portfolio</title><link>https://bespokesy.dev/post/starting-a-product-portfolio/</link><pubDate>Mon, 15 Mar 2021 13:41:00 +1100</pubDate><guid>https://bespokesy.dev/post/starting-a-product-portfolio/</guid><description>&lt;p>I may have (finally) settled on a strategy on how to start building a portfolio of products.&lt;/p>
 &lt;p>Over the past week, I&amp;rsquo;ve spent a lot of time reading up on articles across indie hacker (IH) and related spaces, plus various posts linked from those sites. And the ever-deepening tree of content that branches off from those.&lt;br>
 Quite frankly, it&amp;rsquo;s mind boggling how much material is out there to distract myself from, you know, &lt;em>actually building things&lt;/em>. &lt;!-- raw HTML omitted -->&lt;/p>
 &lt;h2 id="my-handicap">My handicap&lt;/h2>
@@ -186,7 +267,34 @@ My best-guess approach is to pick a marketplace for a platform with a low barrie
 &lt;/ul>
 &lt;p>I&amp;rsquo;m sure there are several nuggets out there.&lt;/p>
 &lt;p>I&amp;rsquo;ll report back once I&amp;rsquo;ve decided on something that I believe I can build in a reasonable amount of time.&lt;br>
-And to summarize: For the first try I won&amp;rsquo;t try and guess/analyze if the product will make money. I just need to make sure I won&amp;rsquo;t burn money to keep it running.&lt;/p></description></item><item><title>Welcome</title><link>https://bespokesy.dev/post/welcome/</link><pubDate>Wed, 10 Mar 2021 11:18:47 +1100</pubDate><guid>https://bespokesy.dev/post/welcome/</guid><description>&lt;p>Welcome to my new website. And blog, I suppose.&lt;/p>
+And to summarize: For the first try I won&amp;rsquo;t try and guess/analyze if the product will make money. I just need to make sure I won&amp;rsquo;t burn money to keep it running.&lt;/p>
+&lt;script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+var ml_account = ml('accounts', '3074539', 'u5b9q6h0b0', 'load');
+&lt;/script>
+&lt;div class="ml-form-embed"
+data-account=3074539:u5b9q6h0b0
+data-form=3919285:f4p1k1>
+&lt;/div>
+&lt;style>
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+background-color: var(--secondary-bg-color);
+padding: 1em;
+width: 60%;
+max-width: unset;
+}
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+color: unset;
+font-family: unset;
+font-weight: 1em;
+}
+&lt;/style></description></item><item><title>Welcome</title><link>https://bespokesy.dev/post/welcome/</link><pubDate>Wed, 10 Mar 2021 11:18:47 +1100</pubDate><guid>https://bespokesy.dev/post/welcome/</guid><description>&lt;p>Welcome to my new website. And blog, I suppose.&lt;/p>
 &lt;p>I&amp;rsquo;m working hard behind the scenes to put together more details about some of the system integrations I have completed previously.&lt;br>
 This might take a bit of time to complete. &lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>Meanwhile, I want to briefly explain how to best work with me. You know, just in case you stumble across this first post.&lt;/p>
@@ -208,4 +316,31 @@ Those are the questions worth asking.&lt;/p>
 &lt;p>I am fairly inexperienced when it comes to posting blogs, articles, etc. I completely expect to be a bit rough around the edges when writing content in this form.
 Please cut me some slack while I continue to learn and (hopefully) improve over time.&lt;br>
 Having said that, though, feedback is always welcome.&lt;/p>
-&lt;p>(Update: Don&amp;rsquo;t hesitate to head over to my &lt;a href="https://bespokesy.dev/contact/">contact page&lt;/a> if you&amp;rsquo;d like to start a conversation with me.)&lt;/p></description></item></channel></rss>
+&lt;p>(Update: Don&amp;rsquo;t hesitate to head over to my &lt;a href="https://bespokesy.dev/contact/">contact page&lt;/a> if you&amp;rsquo;d like to start a conversation with me.)&lt;/p>
+&lt;script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+var ml_account = ml('accounts', '3074539', 'u5b9q6h0b0', 'load');
+&lt;/script>
+&lt;div class="ml-form-embed"
+data-account=3074539:u5b9q6h0b0
+data-form=3919285:f4p1k1>
+&lt;/div>
+&lt;style>
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+background-color: var(--secondary-bg-color);
+padding: 1em;
+width: 60%;
+max-width: unset;
+}
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+color: unset;
+font-family: unset;
+font-weight: 1em;
+}
+&lt;/style></description></item></channel></rss>
