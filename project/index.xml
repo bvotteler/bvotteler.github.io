@@ -31,4 +31,31 @@ This is what I built the shortcode for; to make it somewhat easier to have consi
 &lt;p>So, basically I make the shortcode smarter by looking in multiple locations to find and apply defaults. Meaning, it can derive the CSS styles from Hugo&amp;rsquo;s global configuration, look at data files for embed styles per calendar, or front-matter on a particular page even.&lt;/p>
 &lt;p>In a nutshell, the closer you get to the actual shortcode on a page itself, the higher the priority of a setting. Meaning you can override defaults with increasing granularity if you wish to do so.&lt;/p>
 &lt;h2 id="receive-updates-about-the-advanced-version-hugo-calendly-shortcode-plus">Receive updates about the advanced version (hugo-calendly-shortcode-plus)&lt;/h2>
-&lt;p>If you are interested in following the progress on the advanced version, feel free to subscribe below. I won&amp;rsquo;t use your address for anything other than updates about &lt;code>hugo-calendly-shortcode-plus&lt;/code>.&lt;/p></description></item></channel></rss>
+&lt;p>If you are interested in following the progress on the advanced version, feel free to subscribe below. I won&amp;rsquo;t use your address for anything other than updates about &lt;code>hugo-calendly-shortcode-plus&lt;/code>.&lt;/p>
+&lt;script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+var ml_account = ml('accounts', '3074539', 'u5b9q6h0b0', 'load');
+&lt;/script>
+&lt;div class="ml-form-embed"
+data-account=3074539:u5b9q6h0b0
+data-form=3919441:v3z7p1>
+&lt;/div>
+&lt;style>
+#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+background-color: var(--secondary-bg-color);
+padding: 1em;
+width: 60%;
+max-width: unset;
+}
+#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+color: unset;
+font-family: unset;
+font-weight: 1em;
+}
+&lt;/style></description></item></channel></rss>
