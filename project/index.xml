@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Bespokesy – connecting software</title><link>https://bespokesy.dev/project/</link><description>Recent content in Projects on Bespokesy – connecting software</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 20 Apr 2021 09:50:04 +1000</lastBuildDate><atom:link href="https://bespokesy.dev/project/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Calendly Shortcode</title><link>https://bespokesy.dev/project/hugo-calendly-shortcode/</link><pubDate>Tue, 20 Apr 2021 09:50:04 +1000</pubDate><guid>https://bespokesy.dev/project/hugo-calendly-shortcode/</guid><description>&lt;p>I&amp;rsquo;ve built &lt;code>hugo-calendly-shortcode&lt;/code> to make it easier to add Calendly to your Hugo pages.&lt;br>
 Simply &lt;strong>add a shortcode&lt;/strong>, &lt;strong>pick a style&lt;/strong>, and &lt;strong>add your calendar/event name&lt;/strong>. That&amp;rsquo;s it.&lt;/p>
-&lt;p>Right now, the basic, free &amp;amp; open-source version is available &lt;a href="https://github.com/bespokesy/hugo-calendly-shortcode">here&lt;/a>. &lt;!-- raw HTML omitted -->
-I am also building out a more advanced version which I will offer at a price far less than the time it would take a developer to build their own.&lt;/p>
+&lt;p>The basic, free &amp;amp; open-source version is available &lt;a href="https://github.com/bespokesy/hugo-calendly-shortcode">here&lt;/a>. &lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>I have built an advanced version, called &lt;strong>Hugo Calendly Shortcode Plus&lt;/strong>, which I &lt;a href="https://gum.co/hugo-calendly-shortcode-plus">offer on Gumroad&lt;/a> at a price far less than the time it would take a developer to build their own.&lt;/p>
 &lt;h2 id="who-is--isnt-this-for">Who is / isn&amp;rsquo;t this for?&lt;/h2>
 &lt;p>Realistically, if you only want to embed one Calendly calendar/event on one page and don&amp;rsquo;t plan on touching it ever again, you&amp;rsquo;re most likely better off by simply adding the HTML/Javascript snippet directly into your page.&lt;br>
 Seriously, Calendly makes it &lt;a href="https://help.calendly.com/hc/en-us/articles/223147027-Embed-options-overview">super easy&lt;/a>.&lt;/p>
@@ -9,53 +9,8 @@ Seriously, Calendly makes it &lt;a href="https://help.calendly.com/hc/en-us/arti
 This is what I built the shortcode for; to make it somewhat easier to have consistent embeds.&lt;/p>
 &lt;p>Also, the shortcode is fairly easy to use: Just add a calendar name and you&amp;rsquo;re set. Maybe tweak the style if you do not want the default link popup and/or tweak the link text.&lt;/p>
 &lt;h2 id="show-me-the-goods">Show me the goods&lt;/h2>
-&lt;p>Head on over to the &lt;a href="https://bespokesy.github.io/hugo-calendly-shortcode-demo-site/">small demo site&lt;/a> I&amp;rsquo;ve created and take a look at the examples.&lt;/p>
-&lt;p>(Take note that the demo site above uses the free version.)&lt;/p>
+&lt;p>Head on over to the &lt;a href="https://docs.hcs.bespokesy.dev/overview/">demo and documentation site&lt;/a> I&amp;rsquo;ve created and take a look at &lt;a href="https://docs.hcs.bespokesy.dev/examples/">the examples&lt;/a>.&lt;/p>
 &lt;p>&lt;img src="http://i.imgur.com/KxnCQ7i.gif" alt="demo gif of hugo-calendly-shortcode">&lt;/p>
-&lt;h2 id="tell-me-about-the-advanced-version">Tell me about the advanced version&lt;/h2>
-&lt;p>I am still in the process of building it out. Particularly adding features that take advantage of Calendly Pro/Plus subscriptions that allow you to tweak styles of the booking pages. But there are also other pieces that will make working with it even easier.&lt;/p>
-&lt;p>The additional features will enable you to:&lt;/p>
-&lt;ul>
-&lt;li>Apply CSS styles to customize the look and feel for Calendly&lt;/li>
-&lt;li>Add UTM parameters to track your embedded Calendly forms&lt;/li>
-&lt;li>Pull parameter sets from different sources:
-&lt;ul>
-&lt;li>Shortcode parameters (same as with this version),&lt;/li>
-&lt;li>Hugo page front-matter,&lt;/li>
-&lt;li>Hugo site configuration parameters,&lt;/li>
-&lt;li>Hugo data files, or&lt;/li>
-&lt;li>A mix of all of the above.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>So, basically I make the shortcode smarter by looking in multiple locations to find and apply defaults. Meaning, it can derive the CSS styles from Hugo&amp;rsquo;s global configuration, look at data files for embed styles per calendar, or front-matter on a particular page even.&lt;/p>
-&lt;p>In a nutshell, the closer you get to the actual shortcode on a page itself, the higher the priority of a setting. Meaning you can override defaults with increasing granularity if you wish to do so.&lt;/p>
-&lt;h2 id="receive-updates-about-the-advanced-version-hugo-calendly-shortcode-plus">Receive updates about the advanced version (hugo-calendly-shortcode-plus)&lt;/h2>
-&lt;p>If you are interested in following the progress on the advanced version, feel free to subscribe below. I won&amp;rsquo;t use your address for anything other than updates about &lt;code>hugo-calendly-shortcode-plus&lt;/code>.&lt;/p>
-&lt;script>
-(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-var ml_account = ml('accounts', '3074539', 'u5b9q6h0b0', 'load');
-&lt;/script>
-&lt;div class="ml-form-embed"
-data-account=3074539:u5b9q6h0b0
-data-form=3919441:v3z7p1>
-&lt;/div>
-&lt;style>
-#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
-background-color: var(--secondary-bg-color);
-padding: 1em;
-width: 60%;
-max-width: unset;
-}
-#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
-#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
-#mlb2-3919441.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
-color: unset;
-font-family: unset;
-font-weight: 1em;
-}
-&lt;/style></description></item></channel></rss>
+&lt;h2 id="tell-me-about-hugo-calendly-shortcode-plus">Tell me about Hugo Calendly Shortcode Plus&lt;/h2>
+&lt;p>The advanced version offers more options to customize Calendly pages, adds ways to have default parameters shared between all pages and locations the shortcode is used. Plus, it takes advantage of Calendly Premium features such as adding UTM tracking parameters.&lt;/p>
+&lt;p>I have added a &lt;a href="https://docs.hcs.bespokesy.dev/overview/#features">full overview of the features, side-by-side&lt;/a> on the official docs for the shortcode.&lt;/p></description></item></channel></rss>

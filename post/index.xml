@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Bespokesy – connecting software</title><link>https://bespokesy.dev/post/</link><description>Recent content in Posts on Bespokesy – connecting software</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 15 Apr 2021 09:51:58 +1000</lastBuildDate><atom:link href="https://bespokesy.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Published my first piece - hugo-calendly-shortcode</title><link>https://bespokesy.dev/post/published-first-piece/</link><pubDate>Thu, 15 Apr 2021 09:51:58 +1000</pubDate><guid>https://bespokesy.dev/post/published-first-piece/</guid><description>&lt;p>Recently, I&amp;rsquo;ve published my first little Hugo shortcode since starting down this journey: &lt;a href="https://github.com/bespokesy/hugo-calendly-shortcode">hugo-calendly-shortcode&lt;/a> and created a &lt;a href="https://bespokesy.github.io/hugo-calendly-shortcode-demo-site/">small demo site&lt;/a> to show what it looks like. Head on over to take a look!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Bespokesy – connecting software</title><link>https://bespokesy.dev/post/</link><description>Recent content in Posts on Bespokesy – connecting software</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 May 2021 12:20:31 +1000</lastBuildDate><atom:link href="https://bespokesy.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>My first product</title><link>https://bespokesy.dev/post/my-first-product/</link><pubDate>Wed, 12 May 2021 12:20:31 +1000</pubDate><guid>https://bespokesy.dev/post/my-first-product/</guid><description>&lt;p>I have finally done it! I have published my first paid-for product: &lt;a href="https://gum.co/hugo-calendly-shortcode-plus/bespokesy">Hugo Calendly Shortcode Plus&lt;/a>.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>In essence, it&amp;rsquo;s an advanced version of the free, oss version that I released a short while ago - as I&amp;rsquo;ve mentioned in &lt;a href="https://bespokesy.dev/post/published-first-piece/">my previous post&lt;/a>.&lt;/p>
+&lt;p>If you want to grab a copy, I have created a 25% discount code for the first 50 buyers: &lt;code>bespokesy&lt;/code>. It should already be applied in the link above.&lt;/p>
+&lt;p>So, let me try and briefly summarize what has gone into this since my last update.&lt;/p>
+&lt;h2 id="distribution-gumroad">Distribution: Gumroad&lt;/h2>
+&lt;p>I decided to go with Gumroad rather than xs:code.&lt;/p>
+&lt;p>Mostly due to the larger cut that xs:code would take (25%) when compared to Gumroad (8.5% + 30 US cents when on a free account).&lt;br>
+Another factor was that the installation, in this case, is a simply copy and paste job. I could give instructions on how to add it as a git submodule, but I don&amp;rsquo;t think there will be many updates (easier to distribute to submodules). And since I expect a low number of customers, the manual labor of repackaging if I need to and resend by email shouldn&amp;rsquo;t be too bad.&lt;/p>
+&lt;p>I will keep xs:code in mind for future projects, though. I still think it is a great option for software that might need more frequent updates in particular.&lt;/p>
+&lt;h2 id="pricing-one-off">Pricing: One-off&lt;/h2>
+&lt;p>I went a bit back and forth over this. I decided on a one-off price because, again, the low chance that there will be future updates. The code does what it does. There&amp;rsquo;s not terribly more to add.&lt;/p>
+&lt;p>And if I&amp;rsquo;m wrong, nothing stops me from changing the pricing structure.&lt;/p>
+&lt;h3 id="alternative-pricing-tiers-none">Alternative pricing tiers: none&lt;/h3>
+&lt;p>I&amp;rsquo;m not bothering with advanced tiers for this project. I suppose I could offer advanced support, but honestly, I don&amp;rsquo;t think there&amp;rsquo;s much need for it. Time will tell, though. And again, if I&amp;rsquo;m wrong, I can always add another tier.&lt;/p>
+&lt;h2 id="documentation-extensive">Documentation: extensive&lt;/h2>
+&lt;p>I have spent a surprising amount of time on documentation for Hugo Calendly Shortcode Plus. There were so many aspects that I added to it. I freely admit: Some of those pieces may be overkill.&lt;/p>
+&lt;p>The documentation lives on &lt;a href="https://docs.hcs.bespokesy.dev/">its own Hugo site&lt;/a> and encompasses:&lt;/p>
+&lt;ul>
+&lt;li>Demo pages and showcases for both the free and Plus version,&lt;/li>
+&lt;li>A full rundown of the available parameters,&lt;/li>
+&lt;li>A page showing the features side-by-side&lt;/li>
+&lt;li>A page showing errors and warnings a user might run into (and how to fix them),
+&lt;ul>
+&lt;li>Side-note: The error/warning messages in the shortcodes have been updated to link back to that page, too. I&amp;rsquo;m pretty proud about that bit.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>A small section on where to find additional help and support&lt;/li>
+&lt;/ul>
+&lt;p>I hope the docs will come in handy for future users.&lt;/p>
+&lt;h2 id="marketing-minimal-more-to-come">Marketing: minimal, more to come&lt;/h2>
+&lt;p>I&amp;rsquo;ve fallen far short here. Most effort was spent on trying to highlight the benefits and copy.&lt;/p>
+&lt;p>At least I have a short list of places I want to keep an eye out that might help me promote the shortcode.&lt;br>
+I&amp;rsquo;ll check for Hugo and or Calendly related questions on Stack Overflow, Reddit, Slack, Discord, et al. that I know the answer to (not to pump BUY THIS links down people&amp;rsquo;s throats, though).&lt;/p>
+&lt;p>In addition to that, I have ear-marked a few content marketing pieces. The big one is a short video series on adding Calendly to Hugo. Starting with just copy&amp;rsquo;n&amp;rsquo;pasting the snippets Calendly provides, to using the free shortcode, to using the paid one and cascading default and custom values.&lt;/p>
+&lt;h2 id="so-its-all-done">So, it&amp;rsquo;s all done?&lt;/h2>
+&lt;p>From a product point of view: pretty much. From a marketing perspective: I&amp;rsquo;ve just started. :)&lt;/p>
+&lt;p>I think the amount of work in that arena might surprise me.&lt;/p>
+&lt;h2 id="whats-next">What&amp;rsquo;s next?&lt;/h2>
+&lt;p>Apart from working on some content for Hugo Calendly Shortcode Plus, I will be looking for the next project.&lt;/p>
+&lt;p>I have a few integrations in mind and this time I want to take a closer look at the market/audience first. The ones I&amp;rsquo;m leaning towards have the clear benefit that I might have access to the end-users to find out if there are problems that need solving to begin with.&lt;/p>
+&lt;p>I&amp;rsquo;ll share which idea I have picked in the next update.&lt;/p>
+&lt;script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+var ml_account = ml('accounts', '3074539', 'u5b9q6h0b0', 'load');
+&lt;/script>
+&lt;div class="ml-form-embed"
+data-account=3074539:u5b9q6h0b0
+data-form=3919285:f4p1k1>
+&lt;/div>
+&lt;style>
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+background-color: var(--secondary-bg-color);
+padding: 1em;
+width: 60%;
+max-width: unset;
+}
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-3919285.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+color: unset;
+font-family: unset;
+font-weight: 1em;
+}
+&lt;/style></description></item><item><title>Published my first piece - hugo-calendly-shortcode</title><link>https://bespokesy.dev/post/published-first-piece/</link><pubDate>Thu, 15 Apr 2021 09:51:58 +1000</pubDate><guid>https://bespokesy.dev/post/published-first-piece/</guid><description>&lt;p>Recently, I&amp;rsquo;ve published my first little Hugo shortcode since starting down this journey: &lt;a href="https://github.com/bespokesy/hugo-calendly-shortcode">hugo-calendly-shortcode&lt;/a> and created a &lt;a href="https://bespokesy.github.io/hugo-calendly-shortcode-demo-site/">small demo site&lt;/a> to show what it looks like. Head on over to take a look!&lt;/p>
 &lt;p>The code is free and open source, so it won&amp;rsquo;t bring in revenue. However, it forms a good basis to build an advanced version of it with more features - particularly for end users with a Pro or Premium subscription of Calendly.&lt;br>
 And also: Sharing is caring. It might just help a few folks out to get more out of Hugo.&lt;/p>
 &lt;!-- raw HTML omitted -->
